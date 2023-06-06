@@ -1,0 +1,431 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "4945c48b-c56b-42e1-8cf0-4332f1dcc2f4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "##Q1 HOW DO YOU COmment IN PYTHON ? WHAT ARE THE DIFFERENT TYPES OF COMMENT?\n",
+    "#### Comment in python is identifed with hash symbol (#),as the above question is written by using comment code itself.\n",
+    "### there are two type of comment code in python \n",
+    "## single line comment\n",
+    "## multi line comment"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "127b72f6-3bb6-4705-ba4e-040d554258c1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "##Q2 WHAT ARE THE VARIABLE IN PYTHON? HOW NDO YOU DECLARE AND ASSIGN VALUES TO VARIABLES?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "8a318447-b7e0-4eb7-b278-37dbcb9a3fb9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#### A variable in Python is a name that is used to refer to a value. Variables are used to store data and to make the code more readable."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "b89f5dd6-e247-4f2e-9baf-e9ae3c8ee5a8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ROHIT = 55"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "95fdf842-e969-499c-9420-f7008f23eb2b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(\"rohit\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "103fb22f-db48-46de-811d-12679aeab45b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###Q3 how do you convert one date type to  another in pyhon?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f1fb92be-176d-48b2-8b63-c425258c0ecb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###Q4  how do you write and execute python script from the command line"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "b44c1d4e-f383-43b4-9db2-4d3369d0d3c1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###Create a new file with a .py extension.\n",
+    "#Write your Python code in the file.\n",
+    "#Save the file.\n",
+    "#Open a command prompt or terminal window.\n",
+    "#Navigate to the directory where you saved your Python script.\n",
+    "#Type the following command:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "28151110-24d9-458d-ac4f-cdd3e3bdf293",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hello world'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"hello world\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "e6530353-7c07-463c-bbeb-fd0b87a95288",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello world\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "911062cf-c37d-4f9d-a1f1-cc2d4c2d14c7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###Q5 GIVEN A LIST MY_LIST = [1,2,3,4,5], WRITE THE CODE TO SLICE LIST AND OBTAIN THE SUB-LIST[2,3]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "2755e836-aa9f-480f-8c63-b7c8ef1da39c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "my_list = [1,2,3,4,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "67aeaec9-376d-47cc-b942-e54178034a74",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3]"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_list[1:3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "060c4f3f-2ece-4279-89b1-eb8470864139",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###Q WHAT IS A COMPLEX NO. IN MATH,AND HOW IT IS REPRESENTES IN PYTHON?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "6844d6e1-1bc5-480b-b813-c6a0648ddbdb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###A complex number is a number of the form a + bi, where a and b are real numbers, and i is an imaginary unit satisfying i2 = −1. For example, 2 + 3i is a complex number. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "0871b207-0eb4-4472-b3d8-e14f2f30db03",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### WHAT IS THE CORRECT WAY TO DECLARE A VARIABLE NAMED AGE AND ASSIGN THE VALUE 25 TO IT?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "8241dce3-fc51-4b28-bb03-80566b0d284f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###The age variable is now assigned the value 25. We can check the value of the variable by using the print() function:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "ff885191-c75d-4423-8fbe-54288cbfc8e9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age = 25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "ad4ff139-5cc3-41d4-a6d0-dc0e148d3135",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "771e486a-9db9-414b-9d90-09dc337f5977",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###Q8 what is the correct way to decalare a variable named price and assign and assign the value 9.99 to it. waht data type does this variable brelong to?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "4f2cd2a0-364b-4dea-8e85-a7b6e99bcb5b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "###The data type of the price variable is float. This is because the value 9.99 is a floating-point number. Floating-point numbers are numbers that have a decimal point."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "90774416-6440-4eb4-998f-9fa926f33a18",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "price = 9.99"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "3009bacf-f7f8-4a19-a81c-82af72117cb6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(price)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "8c6e0b72-70a3-436e-8aa4-9969c79395d0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "####Q9 CREATE A VARIABLE NAMED AND ASSIGN YOUR FULL NAME TO IT AS A STRING. HOW WOULD YOU PRINT THE VALUE OF THIS VARIABLE?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "eed6b918-f6ea-472e-9d59-020bcb10ef48",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name =\"rohit\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "01ce647c-014c-403e-a375-91340d7b2de0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "rohit\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "d058296a-f470-4961-b161-b3b43d2c0e84",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "####Q10 given the string \"hello world\", extract the substring \"world\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "75858a95-763d-407a-a30d-0e3df78f490d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "string =\"hello world\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "85610154-53c0-462f-84f1-d7ae08e78b97",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'world'"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "string[6:11]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "23219c49-b259-4491-9815-007a5544e541",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "####Q12 create a variable named \"is_string\" and assign it a boolean value indicating whether you are student or not"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "237b32bc-eab5-46c3-af81-048ef9841aac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "is_string = 'True'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "30f79a6a-3192-4a56-98cd-d5b59d0d6413",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
